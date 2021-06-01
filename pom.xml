@@ -8,5 +8,16 @@
     <artifactId>PT2021_30421_Ditulescu_Francesca_Assignment_1</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <properties>
+        <maven.compiler.source>1.15</maven.compiler.source>
+        <maven.compiler.target>1.15</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <groupId> org.junit.jupiter </groupId>
+        <artifactId> junit-jupiter-engine </artifactId>
+        <version> 5.1.0 </version>
+        <scope> test </scope>
+    </dependencies>
 
 </project>
